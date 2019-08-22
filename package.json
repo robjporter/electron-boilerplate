@@ -1,7 +1,7 @@
 {
   "name": "electron-webpack",
   "productName": "electron-webpack",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
@@ -12,7 +12,7 @@
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
-  "author": "Saeid",
+  "author": "roporter",
   "license": "MIT",
   "config": {
     "forge": {
