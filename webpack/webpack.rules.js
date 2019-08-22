@@ -35,4 +35,12 @@ module.exports = [
       name: "[path][name].[ext]",
     },
   },
+  {
+    test: /\.(ttf|eot|svg|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+    loader: "file-loader",
+  },
+  {
+    test: /\.svgico/,
+    loader: 'raw'
+  },
 ];
